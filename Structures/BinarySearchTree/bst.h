@@ -8,16 +8,16 @@
 #include "bst_node.h"
 
 typedef struct bst_s {
-    Node*        root;
+    BSTNode*     root;
     unsigned int size;
 } BinarySearchTree;
 
 
 BinarySearchTree* binarySearchTree();
 
-void insert(BinarySearchTree* bst, void* data);
+void insert (BinarySearchTree* bst, void* data);
 
-bool find(BinarySearchTree* bst, void* data);
+bool find   (BinarySearchTree* bst, void* data);
 
 
 

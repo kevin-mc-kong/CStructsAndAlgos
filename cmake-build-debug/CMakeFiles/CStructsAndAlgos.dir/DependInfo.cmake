@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o"
-  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o"
-  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o"
+  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o"
+  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o"
+  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o"
+  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o"
+  "/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.c" "/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

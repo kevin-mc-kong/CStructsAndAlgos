@@ -57,93 +57,145 @@ include CMakeFiles/CStructsAndAlgos.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CStructsAndAlgos.dir/flags.make
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o: ../Structures/heap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.c
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o: ../Structures/Heap/heap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.c
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.c > CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.i
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.c > CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.i
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.s
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.s
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.requires:
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.requires:
 
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.requires
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.requires
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.requires
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.provides.build
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.provides
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.requires
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.provides.build
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.provides
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o
-
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o: ../Structures/bst.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.c
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.c > CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.i
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.s
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.requires:
-
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.requires
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.requires
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.provides.build
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.provides
-
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o
+CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o
 
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o: ../Structures/bst_node.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.c
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o: ../Structures/BinarySearchTree/bst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.c
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.c > CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.i
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.c > CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.i
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.s
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.s
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.requires:
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.requires:
 
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.requires
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.requires
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.requires
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.provides.build
-.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.provides
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.requires
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.provides.build
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.provides
 
-CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o
+
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o: ../Structures/BinarySearchTree/bst_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.c
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.c > CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.i
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.s
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.requires:
+
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.requires
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.requires
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.provides.build
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.provides
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o
+
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o: ../Structures/LinkedList/ll_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.c
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.c > CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.i
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.s
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.requires:
+
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.requires
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.requires
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.provides.build
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.provides
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o
+
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o: CMakeFiles/CStructsAndAlgos.dir/flags.make
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o: ../Structures/LinkedList/linked_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o   -c /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.c
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.c > CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.i
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.c -o CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.s
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.requires:
+
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.requires
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.provides: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.requires
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.provides.build
+.PHONY : CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.provides
+
+CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.provides.build: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o
 
 
 # Object files for target CStructsAndAlgos
 CStructsAndAlgos_OBJECTS = \
-"CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o" \
-"CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o" \
-"CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o"
+"CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o" \
+"CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o" \
+"CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o" \
+"CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o" \
+"CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o"
 
 # External object files for target CStructsAndAlgos
 CStructsAndAlgos_EXTERNAL_OBJECTS =
 
-libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o
-libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o
-libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o
+libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o
+libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o
+libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o
+libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o
+libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o
 libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/build.make
 libCStructsAndAlgos.so: CMakeFiles/CStructsAndAlgos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libCStructsAndAlgos.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mxk7199/CLionProjects/CStructsAndAlgos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libCStructsAndAlgos.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CStructsAndAlgos.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,9 +203,11 @@ CMakeFiles/CStructsAndAlgos.dir/build: libCStructsAndAlgos.so
 
 .PHONY : CMakeFiles/CStructsAndAlgos.dir/build
 
-CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o.requires
-CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o.requires
-CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o.requires
+CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o.requires
+CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o.requires
+CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o.requires
+CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o.requires
+CMakeFiles/CStructsAndAlgos.dir/requires: CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o.requires
 
 .PHONY : CMakeFiles/CStructsAndAlgos.dir/requires
 

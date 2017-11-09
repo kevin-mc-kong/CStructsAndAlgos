@@ -84,22 +84,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.c">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.c">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst.h">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst.h">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.c">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.c">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/bst_node.h">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/BinarySearchTree/bst_node.h">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.c">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.c">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
-		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/heap.h">
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/Heap/heap.h">
+			<Option target="CStructsAndAlgos"/>
+		</Unit>
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.c">
+			<Option target="CStructsAndAlgos"/>
+		</Unit>
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/linked_list.h">
+			<Option target="CStructsAndAlgos"/>
+		</Unit>
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.c">
+			<Option target="CStructsAndAlgos"/>
+		</Unit>
+		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/Structures/LinkedList/ll_node.h">
 			<Option target="CStructsAndAlgos"/>
 		</Unit>
 		<Unit filename="/home/mxk7199/CLionProjects/CStructsAndAlgos/CMakeLists.txt">

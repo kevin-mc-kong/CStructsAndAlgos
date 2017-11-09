@@ -123,86 +123,140 @@ CStructsAndAlgos/fast:
 	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/build
 .PHONY : CStructsAndAlgos/fast
 
-Structures/bst.o: Structures/bst.c.o
+Structures/BinarySearchTree/bst.o: Structures/BinarySearchTree/bst.c.o
 
-.PHONY : Structures/bst.o
-
-# target to build an object file
-Structures/bst.c.o:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o
-.PHONY : Structures/bst.c.o
-
-Structures/bst.i: Structures/bst.c.i
-
-.PHONY : Structures/bst.i
-
-# target to preprocess a source file
-Structures/bst.c.i:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.i
-.PHONY : Structures/bst.c.i
-
-Structures/bst.s: Structures/bst.c.s
-
-.PHONY : Structures/bst.s
-
-# target to generate assembly for a file
-Structures/bst.c.s:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.s
-.PHONY : Structures/bst.c.s
-
-Structures/bst_node.o: Structures/bst_node.c.o
-
-.PHONY : Structures/bst_node.o
+.PHONY : Structures/BinarySearchTree/bst.o
 
 # target to build an object file
-Structures/bst_node.c.o:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o
-.PHONY : Structures/bst_node.c.o
+Structures/BinarySearchTree/bst.c.o:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o
+.PHONY : Structures/BinarySearchTree/bst.c.o
 
-Structures/bst_node.i: Structures/bst_node.c.i
+Structures/BinarySearchTree/bst.i: Structures/BinarySearchTree/bst.c.i
 
-.PHONY : Structures/bst_node.i
+.PHONY : Structures/BinarySearchTree/bst.i
 
 # target to preprocess a source file
-Structures/bst_node.c.i:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.i
-.PHONY : Structures/bst_node.c.i
+Structures/BinarySearchTree/bst.c.i:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.i
+.PHONY : Structures/BinarySearchTree/bst.c.i
 
-Structures/bst_node.s: Structures/bst_node.c.s
+Structures/BinarySearchTree/bst.s: Structures/BinarySearchTree/bst.c.s
 
-.PHONY : Structures/bst_node.s
+.PHONY : Structures/BinarySearchTree/bst.s
 
 # target to generate assembly for a file
-Structures/bst_node.c.s:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.s
-.PHONY : Structures/bst_node.c.s
+Structures/BinarySearchTree/bst.c.s:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.s
+.PHONY : Structures/BinarySearchTree/bst.c.s
 
-Structures/heap.o: Structures/heap.c.o
+Structures/BinarySearchTree/bst_node.o: Structures/BinarySearchTree/bst_node.c.o
 
-.PHONY : Structures/heap.o
+.PHONY : Structures/BinarySearchTree/bst_node.o
 
 # target to build an object file
-Structures/heap.c.o:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o
-.PHONY : Structures/heap.c.o
+Structures/BinarySearchTree/bst_node.c.o:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o
+.PHONY : Structures/BinarySearchTree/bst_node.c.o
 
-Structures/heap.i: Structures/heap.c.i
+Structures/BinarySearchTree/bst_node.i: Structures/BinarySearchTree/bst_node.c.i
 
-.PHONY : Structures/heap.i
+.PHONY : Structures/BinarySearchTree/bst_node.i
 
 # target to preprocess a source file
-Structures/heap.c.i:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.i
-.PHONY : Structures/heap.c.i
+Structures/BinarySearchTree/bst_node.c.i:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.i
+.PHONY : Structures/BinarySearchTree/bst_node.c.i
 
-Structures/heap.s: Structures/heap.c.s
+Structures/BinarySearchTree/bst_node.s: Structures/BinarySearchTree/bst_node.c.s
 
-.PHONY : Structures/heap.s
+.PHONY : Structures/BinarySearchTree/bst_node.s
 
 # target to generate assembly for a file
-Structures/heap.c.s:
-	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.s
-.PHONY : Structures/heap.c.s
+Structures/BinarySearchTree/bst_node.c.s:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.s
+.PHONY : Structures/BinarySearchTree/bst_node.c.s
+
+Structures/Heap/heap.o: Structures/Heap/heap.c.o
+
+.PHONY : Structures/Heap/heap.o
+
+# target to build an object file
+Structures/Heap/heap.c.o:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o
+.PHONY : Structures/Heap/heap.c.o
+
+Structures/Heap/heap.i: Structures/Heap/heap.c.i
+
+.PHONY : Structures/Heap/heap.i
+
+# target to preprocess a source file
+Structures/Heap/heap.c.i:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.i
+.PHONY : Structures/Heap/heap.c.i
+
+Structures/Heap/heap.s: Structures/Heap/heap.c.s
+
+.PHONY : Structures/Heap/heap.s
+
+# target to generate assembly for a file
+Structures/Heap/heap.c.s:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.s
+.PHONY : Structures/Heap/heap.c.s
+
+Structures/LinkedList/linked_list.o: Structures/LinkedList/linked_list.c.o
+
+.PHONY : Structures/LinkedList/linked_list.o
+
+# target to build an object file
+Structures/LinkedList/linked_list.c.o:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o
+.PHONY : Structures/LinkedList/linked_list.c.o
+
+Structures/LinkedList/linked_list.i: Structures/LinkedList/linked_list.c.i
+
+.PHONY : Structures/LinkedList/linked_list.i
+
+# target to preprocess a source file
+Structures/LinkedList/linked_list.c.i:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.i
+.PHONY : Structures/LinkedList/linked_list.c.i
+
+Structures/LinkedList/linked_list.s: Structures/LinkedList/linked_list.c.s
+
+.PHONY : Structures/LinkedList/linked_list.s
+
+# target to generate assembly for a file
+Structures/LinkedList/linked_list.c.s:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.s
+.PHONY : Structures/LinkedList/linked_list.c.s
+
+Structures/LinkedList/ll_node.o: Structures/LinkedList/ll_node.c.o
+
+.PHONY : Structures/LinkedList/ll_node.o
+
+# target to build an object file
+Structures/LinkedList/ll_node.c.o:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o
+.PHONY : Structures/LinkedList/ll_node.c.o
+
+Structures/LinkedList/ll_node.i: Structures/LinkedList/ll_node.c.i
+
+.PHONY : Structures/LinkedList/ll_node.i
+
+# target to preprocess a source file
+Structures/LinkedList/ll_node.c.i:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.i
+.PHONY : Structures/LinkedList/ll_node.c.i
+
+Structures/LinkedList/ll_node.s: Structures/LinkedList/ll_node.c.s
+
+.PHONY : Structures/LinkedList/ll_node.s
+
+# target to generate assembly for a file
+Structures/LinkedList/ll_node.c.s:
+	$(MAKE) -f CMakeFiles/CStructsAndAlgos.dir/build.make CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.s
+.PHONY : Structures/LinkedList/ll_node.c.s
 
 # Help Target
 help:
@@ -213,15 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CStructsAndAlgos"
-	@echo "... Structures/bst.o"
-	@echo "... Structures/bst.i"
-	@echo "... Structures/bst.s"
-	@echo "... Structures/bst_node.o"
-	@echo "... Structures/bst_node.i"
-	@echo "... Structures/bst_node.s"
-	@echo "... Structures/heap.o"
-	@echo "... Structures/heap.i"
-	@echo "... Structures/heap.s"
+	@echo "... Structures/BinarySearchTree/bst.o"
+	@echo "... Structures/BinarySearchTree/bst.i"
+	@echo "... Structures/BinarySearchTree/bst.s"
+	@echo "... Structures/BinarySearchTree/bst_node.o"
+	@echo "... Structures/BinarySearchTree/bst_node.i"
+	@echo "... Structures/BinarySearchTree/bst_node.s"
+	@echo "... Structures/Heap/heap.o"
+	@echo "... Structures/Heap/heap.i"
+	@echo "... Structures/Heap/heap.s"
+	@echo "... Structures/LinkedList/linked_list.o"
+	@echo "... Structures/LinkedList/linked_list.i"
+	@echo "... Structures/LinkedList/linked_list.s"
+	@echo "... Structures/LinkedList/ll_node.o"
+	@echo "... Structures/LinkedList/ll_node.i"
+	@echo "... Structures/LinkedList/ll_node.s"
 .PHONY : help
 
 

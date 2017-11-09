@@ -14,7 +14,7 @@ BinarySearchTree* binarySearchTree() {
 
 
 void insert(BinarySearchTree* bst, void* data) {
-    Node* n = node(data);
+    BSTNode* n = node(data);
 
     if (!bst->size)
         bst->root = n;
@@ -26,7 +26,7 @@ void insert(BinarySearchTree* bst, void* data) {
 }
 
 bool find(BinarySearchTree* bst, void* data) {
-    Node* n = node(data);
+    BSTNode* n = node(data);
 
     if (!bst->size)
         return false;

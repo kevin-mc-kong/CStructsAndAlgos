@@ -6,7 +6,7 @@
 #include "bst_node.h"
 
 
-bool isGreaterThan(Node* a, Node* b) {
+bool isGreaterThan(BSTNode* a, BSTNode* b) {
     if (!a || !b)
         return false;
 
@@ -15,13 +15,13 @@ bool isGreaterThan(Node* a, Node* b) {
     }
 }
 
-bool isEqualTo(Node* a, Node* b) {
+bool isEqualTo(BSTNode* a, BSTNode* b) {
     //TODO implement yourself, return true if a == b, false otherwise
 }
 
 
-Node* node(void* data) {
-    Node* n = malloc(sizeof(Node));
+BSTNode* node(void* data) {
+    BSTNode* n = malloc(sizeof(BSTNode));
     n->data = data;
     n->parent = NULL;
     n->leftChild = NULL;
@@ -31,7 +31,7 @@ Node* node(void* data) {
 }
 
 
-void nodeInsert(Node* a, Node* b) {
+void nodeInsert(BSTNode* a, BSTNode* b) {
     if (isGreaterThan(a, b)) {
         if (a->leftChild)
             nodeInsert(a->leftChild, b);
@@ -51,7 +51,7 @@ void nodeInsert(Node* a, Node* b) {
     }
 }
 
-bool nodeFind(Node* a, Node* b) {
+bool nodeFind(BSTNode* a, BSTNode* b) {
     if (isGreaterThan(a, b)) {
         if (a->leftChild)
             return nodeFind(a->leftChild, b);
@@ -71,7 +71,7 @@ bool nodeFind(Node* a, Node* b) {
     }
 }
 
-bool nodeRemove(Node* a, Node* b) {
+bool nodeRemove(BSTNode* a, BSTNode* b) {
     if (isGreaterThan(a, b)) {
         if (a->leftChild)
             return nodeRemove(a->leftChild, b);

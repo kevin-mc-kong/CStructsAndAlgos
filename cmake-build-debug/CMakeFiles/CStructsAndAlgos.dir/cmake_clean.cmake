@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o"
-  "CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o"
-  "CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o"
+  "CMakeFiles/CStructsAndAlgos.dir/Structures/Heap/heap.c.o"
+  "CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst.c.o"
+  "CMakeFiles/CStructsAndAlgos.dir/Structures/BinarySearchTree/bst_node.c.o"
+  "CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/ll_node.c.o"
+  "CMakeFiles/CStructsAndAlgos.dir/Structures/LinkedList/linked_list.c.o"
   "libCStructsAndAlgos.pdb"
   "libCStructsAndAlgos.so"
 )
