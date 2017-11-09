@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g  -shared -Wl,-soname,libCStructsAndAlgos.so -o libCStructsAndAlgos.so CMakeFiles/CStructsAndAlgos.dir/Structures/heap.c.o CMakeFiles/CStructsAndAlgos.dir/Structures/bst.c.o CMakeFiles/CStructsAndAlgos.dir/Structures/bst_node.c.o 
